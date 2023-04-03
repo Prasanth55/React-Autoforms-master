@@ -9,6 +9,16 @@
 
 .navlinks{
     display: flex;
-    align-items: end;
+    align-items: stretch;
     gap: 20px;
+    margin: 10px;
+}
+
+.navlinks a{
+    text-decoration: none;
+    color: #4d4136;
+}
+
+.navlinks a:hover {
+    color: #8a7460;
 }

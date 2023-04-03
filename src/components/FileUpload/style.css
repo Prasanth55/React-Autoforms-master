@@ -1,3 +1,28 @@
-.fileUploadBox{
-    display: flex;
+.fileUploadBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+  border: 1px solid burlywood;
+  margin: 30px;
+}
+
+.uploadLabel {
+  display: flex;
+  margin: 20px;
+}
+
+.uploadbox {
+  display: flex;
+  margin: 20px;
+}
+
+.uploadButton {
+  display: flex;
+  background-color: #8a7460;
+  color: bisque;
+  border-radius: 5px;
+  align-items: flex-end;
+  margin: 20px;
 }
